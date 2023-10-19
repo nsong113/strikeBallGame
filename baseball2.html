@@ -3,26 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="2.js" defer></script>
+    <script src="test_addevent.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <h2>컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!!</h2>
     <p class="maxCount"></p>
-    <form action="#" id="form">
+    <!-- <form action="#" id="form">
       <input
         type="text"
         placeholder="서로 다른 3자리 숫자를 입력"
         id="inputText"
       />
       <button type="submit" id="submitButton">submit</button>
-    </form>
+    </form> -->
+
+    <input
+      type="text"
+      placeholder="서로 다른 3자리 숫자를 입력"
+      id="inputText"
+    />
+    <button type="submit" id="submitButton">submit</button>
+
     <p class="attempt"></p>
     <!-- 1번째 시도 : 134 -->
 
     <p class="result"></p>
     <!-- 결과: 0B0S -->
-
+    <!-- window.addEventListener("keyup", function (event) { if (event.keyCode ===
+    13) { console.log("hello"); return submitButtonEvent(); } -->
     <p class="final">
       <!-- 4번만에 맞히셨습니다. 게임을 종료합니다.  -->
     </p>
